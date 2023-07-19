@@ -13,6 +13,7 @@
 		255322862A671329009973C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255322852A671329009973C0 /* Preview Assets.xcassets */; };
 		255322882A671329009973C0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255322872A671329009973C0 /* Persistence.swift */; };
 		2553228B2A671329009973C0 /* TrafficLight2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 255322892A671329009973C0 /* TrafficLight2.xcdatamodeld */; };
+		255322922A68445D009973C0 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255322912A68445D009973C0 /* LightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		255322852A671329009973C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		255322872A671329009973C0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2553228A2A671329009973C0 /* TrafficLight2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrafficLight2.xcdatamodel; sourceTree = "<group>"; };
+		255322912A68445D009973C0 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				2553227E2A671328009973C0 /* TrafficLight2App.swift */,
 				255322802A671328009973C0 /* ContentView.swift */,
+				255322912A68445D009973C0 /* LightView.swift */,
 				255322822A671329009973C0 /* Assets.xcassets */,
 				255322872A671329009973C0 /* Persistence.swift */,
 				255322892A671329009973C0 /* TrafficLight2.xcdatamodeld */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				255322882A671329009973C0 /* Persistence.swift in Sources */,
+				255322922A68445D009973C0 /* LightView.swift in Sources */,
 				255322812A671328009973C0 /* ContentView.swift in Sources */,
 				2553227F2A671328009973C0 /* TrafficLight2App.swift in Sources */,
 				2553228B2A671329009973C0 /* TrafficLight2.xcdatamodeld in Sources */,
